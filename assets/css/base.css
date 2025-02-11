@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --color-one: #7C66E6;
+  --color-two: #ED659D;
+  --color-text: #383838;
+  --font: "Raleway", serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-family: var(--font);
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--color-text);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--color-two);
+}
+a.active {
+  color: var(--color-two);
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 45px;
+  background: var(--color-one);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+  border: none;
+}
+.button:hover {
+  color: #fff;
+}
+.button--one:hover {
+  background: var(--color-two);
+}
+.button--two {
+  background: var(--color-two);
+}
+.button--two:hover {
+  background: var(--color-one);
+}
+
+/* End Button */
+/* Box Head */
+.box-head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.box-head__title {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.box-head__desc {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* End Box Head */
+
+/*# sourceMappingURL=base.css.map */
